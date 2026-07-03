@@ -2,7 +2,7 @@ import "./Problems.css";
 
 function Problems() {
   return (
-    <section className="problems">
+    <section className="problems reveal">
       <div className="container">
         <h2 className="problems__title">Você está passando por isso?</h2>
         <div className="problems__grid">

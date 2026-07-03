@@ -2,7 +2,7 @@ import "./Differentials.css";
 
 function Differentials() {
   return (
-    <section className="differentials">
+    <section className="differentials reveal">
       <div className="container">
         <h2 className="differentials__title">Diferenciais</h2>
         <div className="differentials__grid">

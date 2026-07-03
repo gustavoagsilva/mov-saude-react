@@ -2,7 +2,7 @@ import "./CTA.css";
 
 function CTA() {
   return (
-    <section className="cta">
+    <section className="cta reveal">
       <div className="cta__container container">
         <h2 className="cta__title">Agende sua avaliação agora mesmo</h2>
         <a

@@ -3,7 +3,7 @@ import barbaraImg from "../../assets/barbara.jpeg";
 
 function Professional() {
   return (
-    <section id="professional" className="professional">
+    <section id="professional" className="professional reveal">
       <div className="professional__container container">
         <div className="professional__image">
           <img src={barbaraImg} alt="Dra. Bárbara Borghi" />

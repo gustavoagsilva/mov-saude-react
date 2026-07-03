@@ -2,7 +2,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer id="contact" className="footer">
+    <footer id="contact" className="footer reveal">
       <div className="footer__container container">
         <p className="footer__brand">Mov Saúde</p>
         <p className="footer__text">

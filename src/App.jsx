@@ -7,8 +7,11 @@ import Problems from "./components/Problems/Problems";
 import Professional from "./components/Professional/Professional";
 import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
+import useReveal from "./hooks/useReveal";
 
 function App() {
+  useReveal();
+
   return (
     <div>
       <Header />
