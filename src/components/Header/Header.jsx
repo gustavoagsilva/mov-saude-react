@@ -6,7 +6,9 @@ function Header() {
   return (
     <header className="header">
       <div className="header__container container">
-        <h1 className="header__logo">Mov Saúde</h1>
+        <h1 className="header__logo">
+          Mov Saúde <span>Fisioterapia e Pilates</span>
+        </h1>
         <nav className="header__nav">
           <ul className={`header__menu ${open ? "header__menu--open" : ""}`}>
             <li>

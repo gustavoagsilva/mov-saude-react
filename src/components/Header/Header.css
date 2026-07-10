@@ -16,14 +16,22 @@
 }
 
 .header__logo {
+  display: flex;
+  flex-direction: column;
   font-size: 22px;
   font-weight: 700;
   color: var(--primary-color);
 }
 
+.header__logo > span {
+  font-size: 10px;
+  font-weight: 400;
+}
+
 .header__menu {
   display: flex;
   gap: 25px;
+  list-style: none;
 }
 
 .header__menu a {

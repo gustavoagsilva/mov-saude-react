@@ -41,6 +41,7 @@
 
 .professional__list {
   margin-top: 20px;
+  list-style: none;
 }
 
 .professional__item {

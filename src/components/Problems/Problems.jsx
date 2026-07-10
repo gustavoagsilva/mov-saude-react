@@ -8,19 +8,51 @@ function Problems() {
         <div className="problems__grid">
           <div className="problems__item">
             <i className="fas fa-person-circle-exclamation"></i>
-            <span>Dores nas costas</span>
+            <div>
+              <span>Dores nas costas</span>
+              <p className="problems__item-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+                nobis omnis cumque molestiae ad tempora, ipsum corporis
+                perferendis. Animi recusandae ullam aliquid doloribus nulla,
+                praesentium repellat eius ducimus cumque fuga?
+              </p>
+            </div>
           </div>
           <div className="problems__item">
             <i className="fas fa-bandage"></i>
-            <span>Lesões musculares</span>
+            <div>
+              <span>Lesões musculares</span>
+              <p className="problems__item-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+                eaque illum aperiam aut recusandae quas sequi non repellat,
+                itaque consectetur dolores molestiae sint distinctio ex vel
+                quasi deserunt ut necessitatibus.
+              </p>
+            </div>
           </div>
           <div className="problems__item">
             <i className="fas fa-person-walking"></i>
-            <span>Dificuldade de movimento</span>
+            <div>
+              <span>Dificuldade de movimento</span>
+              <p className="problems__item-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Assumenda veniam nemo ullam esse placeat possimus, officiis
+                nihil voluptatum modi, enim libero expedita corporis, qui
+                repellat. Doloribus odit mollitia incidunt dolores!
+              </p>
+            </div>
           </div>
           <div className="problems__item">
             <i className="fas fa-heart-pulse"></i>
-            <span>Pós-operatórios</span>
+            <div>
+              <span>Pós-operatórios</span>
+              <p className="problems__item-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora optio, voluptate perferendis adipisci explicabo soluta
+                corrupti quis cum fugiat expedita in, iste cumque natus atque
+                deleniti sint? Voluptate, totam ab!
+              </p>
+            </div>
           </div>
         </div>
         <p className="problems__text">

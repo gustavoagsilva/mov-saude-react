@@ -1,16 +1,17 @@
 .problems {
-  background: #f8f6f2;
+  background: #1a1a1a;
   padding: 80px 0;
 }
 
 .problems__grid {
   display: grid;
-  grid-template-columns: (2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin-top: 40px;
 }
 
 .problems__title {
+  color: white;
   font-size: 36px;
   margin-bottom: 15px;
   text-align: center;
@@ -27,14 +28,22 @@
 }
 
 .problems__item {
+  display: flex;
   padding: 20px;
   border-radius: 16px;
   gap: 15px;
   transition: 0.3s;
   color: #555;
-  display: grid;
-  align-items: center;
-  background-color: white;
+  align-items: flex-start;
+  background-color: #2a2a2a;
+}
+
+.problems__item-description {
+  text-align: justify;
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 6px;
+  line-height: 1.6;
 }
 
 .problems__item:hover {
@@ -44,26 +53,26 @@
 
 .problems__item i {
   font-size: 20px;
-  color: #c62828;
-  background-color: #fdeaea;
+  color: var(--primary-color);
+  background-color: rgba(46, 125, 50, 0.3);
   padding: 14px;
   border-radius: 12px;
 }
 
 .problems__item span {
   font-weight: 500;
-  color: #333;
+  color: white;
 }
 
 .problems__text {
+  color: #ccc;
   max-width: 750px;
   margin: 50px auto 0;
   padding: 24px 32px;
   text-align: center;
   font-size: 18px;
   line-height: 1.7;
-  color: #444;
-  background: rgba(255, 255, 255, 0.7);
+  background: #2a2a2a;
   border-radius: 18px;
   backdrop-filter: blur(10px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
