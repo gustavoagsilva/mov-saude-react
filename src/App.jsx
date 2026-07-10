@@ -8,6 +8,7 @@ import Professional from "./components/Professional/Professional";
 import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
 import useReveal from "./hooks/useReveal";
+import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
 
 function App() {
   useReveal();
@@ -23,6 +24,7 @@ function App() {
       <Differentials />
       <CTA />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
