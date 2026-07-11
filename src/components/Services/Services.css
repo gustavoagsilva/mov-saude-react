@@ -39,6 +39,7 @@
   color: rgba(255, 255, 255, 0.85);
   font-size: 15px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .services__card-title {

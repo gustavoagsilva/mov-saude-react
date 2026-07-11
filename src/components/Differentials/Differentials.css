@@ -1,11 +1,25 @@
 .differentials {
   padding: 60px 0;
-  background: #f4f7fb;
+  background: linear-gradient(135deg, #ffffff 0%, #e8f5e9 100%);
 }
 
 .differentials__title {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 42px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #4a235a;
+}
+
+.differentials__title::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: var(--primary-color);
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 2px;
 }
 
 .differentials__grid {
@@ -16,13 +30,20 @@
 
 .differentials__item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
-
   background: #f4fbf6;
   padding: 18px 20px;
   border-radius: 12px;
   transition: all 0.3s ease;
+}
+
+.differentials__item-description {
+  text-align: justify;
+  font-size: 14px;
+  color: #666;
+  margin-top: 6px;
+  line-height: 1.6;
 }
 
 .differentials__item:hover {
@@ -40,6 +61,8 @@
   transform: scale(1.2);
 }
 
-.differentials__item span {
-  font-weight: 500;
+.differentials__item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #4a235a; /* possivelmente mudar essa cor */
 }
