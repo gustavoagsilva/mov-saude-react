@@ -9,7 +9,7 @@ function Professional() {
           <img src={barbaraImg} alt="Dra. Bárbara Borghi" />
         </div>
         <div className="professional__content">
-          <h2 className="professional__title">Dra. Bárba Borhi</h2>
+          <h2 className="professional__title">Dra. Bárbara Borhi</h2>
           <p className="professional__text">
             A Dra. Bárbara Borghi é fisioterapeuta formada, especializada em
             reabilitação funcional, com foco no cuidado ao movimento, no alívio
@@ -21,10 +21,22 @@ function Professional() {
             promover recuperação, bem-estar e maior autonomia no dia a dia.
           </p>
           <ul className="professional__list">
-            <li className="professional__item">Fisioterapira Otopédica</li>
-            <li className="professional__item">Fisioterapia Funcional</li>
-            <li className="professional__item">Fisioterapia Esportiva</li>
-            <li className="professional__item">Pilates Clínico</li>
+            <li className="professional__item">
+              <i className="fas fa-check-circle"></i>
+              Fisioterapira Ortopédica
+            </li>
+            <li className="professional__item">
+              <i className="fas fa-check-circle"></i>
+              Fisioterapia Funcional
+            </li>
+            <li className="professional__item">
+              <i className="fas fa-check-circle"></i>
+              Fisioterapia Esportiva
+            </li>
+            <li className="professional__item">
+              <i className="fas fa-check-circle"></i>
+              Pilates Clínico
+            </li>
           </ul>
         </div>
       </div>
