@@ -62,3 +62,12 @@
   color: var(--primary-color);
   font-size: 16px;
 }
+
+.professional__quote {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+}
