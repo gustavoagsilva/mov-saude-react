@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Professional from "./components/Professional/Professional";
 import Services from "./components/Services/Services";
+import MovForYou from "./components/MOVForYou/MOVForYou";
 import Journey from "./components/Journey/Journey";
 import Footer from "./components/Footer/Footer";
 import useReveal from "./hooks/useReveal";
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <Professional />
       <Services />
+      <MovForYou />
       <Journey />
       <About />
       <Differentials />
