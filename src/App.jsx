@@ -10,6 +10,7 @@ import Journey from "./components/Journey/Journey";
 import Footer from "./components/Footer/Footer";
 import useReveal from "./hooks/useReveal";
 import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
+import Philosophy from "./components/Philosophy/Philosophy";
 
 function App() {
   useReveal();
@@ -21,6 +22,7 @@ function App() {
       <Professional />
       <Services />
       <MovForYou />
+      <Philosophy />
       <Journey />
       <About />
       <Differentials />
