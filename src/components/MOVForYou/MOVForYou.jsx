@@ -4,7 +4,7 @@ function MovForYou() {
   return (
     <section className="movforyou reveal">
       <div className="container">
-        <h2 className="movforyou__title"> A MOV saúde é para você que...</h2>
+        <h2 className="movforyou__title"> A MOV saúde é para você que:</h2>
         <ul className="movforyou__list">
           <li className="movforyou__item">
             ✨ Quer voltar a brincar com seus filhos ou netos sem que a dor seja

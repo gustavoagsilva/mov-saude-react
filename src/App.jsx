@@ -21,9 +21,9 @@ function App() {
       <Hero />
       <Professional />
       <Services />
+      <Journey />
       <MovForYou />
       <Philosophy />
-      <Journey />
       <About />
       <Differentials />
       <CTA />
