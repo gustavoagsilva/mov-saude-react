@@ -23,8 +23,8 @@ function Footer() {
             <i className="fas fa-clock"></i>
             <div>
               <p>Horário de atendimento</p>
-              <p>Segunda a Sexta: 07:30hs às 20:00 hrs</p>
-              <p>Sábado - 08:30 às 10:30 hrs</p>
+              <p>Segunda a Sexta: 07:30h às 20:00h</p>
+              <p>Sábado - 08:30h às 10:30h</p>
               <p>Domingo: Fechado</p>
             </div>
           </div>

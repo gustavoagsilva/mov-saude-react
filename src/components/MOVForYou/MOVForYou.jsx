@@ -8,14 +8,14 @@ function MovForYou() {
         <ul className="movforyou__list">
           <li className="movforyou__item">
             ✨ Quer voltar a brincar com seus filhos ou netos sem que a dor seja
-            um ulmite.
+            um limite.
           </li>
           <li className="movforyou__item">
             ✨ Sonha em subir escadas, caminhar ou viajar com mais segurança e
             disposição.
           </li>
           <li className="movforyou__item">
-            ✨ Deseja envelhecer com autonomia, equilíbrio e quauldade de vida.
+            ✨ Deseja envelhecer com autonomia, equilíbrio e qualidade de vida.
           </li>
           <li className="movforyou__item">
             ✨ Quer praticar exercícios de forma segura, respeitando seu corpo e
@@ -25,15 +25,15 @@ function MovForYou() {
             ✨ Está cansado de conviver com dores que já fazem parte da rotina.
           </li>
           <li className="movforyou__item">
-            ✨ Busca recuperar sua confiança para reaulzar atividades simples do
+            ✨ Busca recuperar sua confiança para realizar atividades simples do
             dia a dia.
           </li>
           <li className="movforyou__item">
-            ✨ Quer melhorar sua postura, seu movimento e sua quauldade de vida.
+            ✨ Quer melhorar sua postura, seu movimento e sua qualidade de vida.
           </li>
           <li className="movforyou__item">
             ✨ Acredita que cuidar da saúde hoje é investir em um futuro com
-            mais ulberdade.
+            mais liberdade.
           </li>
         </ul>
       </div>

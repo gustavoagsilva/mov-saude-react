@@ -5,9 +5,20 @@ function CTA() {
     <section className="cta reveal">
       <div className="cta__container container">
         <h2 className="cta__title">Agende sua avaliação agora mesmo</h2>
-        <p className="cta__subtitle">
+        {/* <a
+          href="https://wa.me/5511910000570"
+          target="_blank"
+          className="cta__subtitle"
+        >
           Agende sua aula experimental clicando AQUI
-        </p>
+        </a> */}
+        <a
+          href="LINK_DO_GOOGLE_FORMS"
+          target="_blank"
+          className="btn btn--primary"
+        >
+          Agendar aula experimental clicando AQUI
+        </a>
         <div className="cta__buttons">
           <a
             href="https://wa.me/5511910000570"

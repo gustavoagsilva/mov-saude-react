@@ -37,11 +37,11 @@ function Header() {
           ☰
         </button>
         <a
-          href="https://wa.me/5511910000570"
+          href="LINK_DO_GOOGLE_FORMS"
           className="btn btn--primary header__cta"
           target="_blank"
         >
-          Agendar
+          Agendar aula experimental
         </a>
       </div>
     </header>

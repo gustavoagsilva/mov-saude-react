@@ -8,7 +8,7 @@
   text-align: center;
   font-size: 36px;
   margin-bottom: 60px;
-  color: red;
+  color: var(--primary-color);
 }
 
 .journey__title-main::after {
@@ -91,7 +91,7 @@
 
 .journey__text {
   font-size: 15px;
-  color: white;
+  color: black;
   line-height: 1.7;
   margin-bottom: 8px;
 }
