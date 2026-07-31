@@ -43,13 +43,14 @@
   margin-top: 20px;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
 
 .professional__item {
   display: flex;
   align-items: center;
+  flex-direction: column;
   gap: 10px;
   background: rgba(46, 125, 50, 0.08);
   padding: 12px 16px;
@@ -57,11 +58,33 @@
   color: #333;
   font-weight: 500;
   font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(46, 125, 50, 0.15);
+}
+
+.professional__item:hover {
+  background: rgba(46, 125, 50, 0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .professional__item i {
   color: var(--primary-color);
   font-size: 16px;
+}
+
+.professional__popup {
+  background: white;
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+  border-left: 3px solid var(--primary-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  font-weight: 400;
+  margin-top: 4px;
 }
 
 .professional__quote {
