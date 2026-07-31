@@ -121,7 +121,7 @@
   }
 
   .hero__title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .hero__buttons {
@@ -131,5 +131,10 @@
 
   .hero__image {
     max-width: 100%;
+  }
+
+  .hero .btn--secondary {
+    border-color: white;
+    color: white;
   }
 }

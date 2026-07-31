@@ -95,3 +95,32 @@
   font-style: italic;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .professional__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .professional__image img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .professional__list {
+    grid-template-columns: 1fr;
+  }
+
+  .professional__title {
+    text-align: center;
+  }
+
+  .professional__text {
+    text-align: left;
+    text-align: justify;
+  }
+
+  .professional__popup p {
+    text-align: justify;
+  }
+}

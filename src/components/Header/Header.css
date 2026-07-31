@@ -95,6 +95,16 @@
     display: none;
   }
 
+  .header__menu--open a {
+    padding: 8px 30px;
+    display: block;
+    font-size: 15px;
+  }
+
+  .header__menu--open a::after {
+    display: none;
+  }
+
   .header__menu--open {
     display: flex;
     width: 100%;

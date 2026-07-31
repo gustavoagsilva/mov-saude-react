@@ -50,4 +50,8 @@
   .movforyou__list {
     grid-template-columns: 1fr;
   }
+
+  .movforyou__title {
+    font-size: 32px;
+  }
 }

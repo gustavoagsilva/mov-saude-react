@@ -95,3 +95,34 @@
   line-height: 1.7;
   margin-bottom: 8px;
 }
+
+@media (max-width: 768px) {
+  .journey__list {
+    padding-left: 25px;
+  }
+
+  .journey__number {
+    left: -38px;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .journey__content {
+    padding: 16px;
+  }
+
+  .journey__title {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .journey__text {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .journey__item:hover .journey__content {
+    transform: translateX(4px);
+  }
+}
