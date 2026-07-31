@@ -2,7 +2,7 @@ import "./Journey.css";
 
 function Journey() {
   return (
-    <section className="journey reveal">
+    <section id="journey" className="journey reveal">
       <div className="container">
         <h2 className="journey__title-main">Como será sua jornada na MOV</h2>
         <div className="journey__list">

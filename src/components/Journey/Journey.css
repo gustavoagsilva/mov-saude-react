@@ -1,13 +1,14 @@
 .journey {
   padding: 80px 0;
-  background: linear-gradient(135deg, #0d1117, #2d1b4e);
+  /* background: linear-gradient(135deg, #0d1117, #2d1b4e); */
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .journey__title-main {
   text-align: center;
   font-size: 36px;
   margin-bottom: 60px;
-  color: white;
+  color: red;
 }
 
 .journey__title-main::after {
@@ -84,13 +85,13 @@
 .journey__title {
   font-size: 20px;
   font-weight: 600;
-  color: #a78bfa;
+  color: var(--primary-color);
   margin-bottom: 10px;
 }
 
 .journey__text {
   font-size: 15px;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   line-height: 1.7;
   margin-bottom: 8px;
 }

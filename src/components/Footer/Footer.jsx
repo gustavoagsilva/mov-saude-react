@@ -14,7 +14,7 @@ function Footer() {
           <div className="footer__item">
             <i className="fa-solid fa-location-dot"></i>
             <div>
-              <p>Rua Marina, 1325 - Campestre</p>
+              <p>Rua Marina, 1325, 1ª andar - Campestre</p>
               <p>CEP 09070-510 - Santo André/SP</p>
             </div>
           </div>
@@ -23,7 +23,9 @@ function Footer() {
             <i className="fas fa-clock"></i>
             <div>
               <p>Horário de atendimento</p>
-              <p>Segunda a Sexta: 9h às 17hrs</p>
+              <p>Segunda a Sexta: 07:30hs às 20:00 hrs</p>
+              <p>Sábado - 08:30 às 10:30 hrs</p>
+              <p>Domingo: Fechado</p>
             </div>
           </div>
 

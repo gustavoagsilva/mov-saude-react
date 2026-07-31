@@ -1,6 +1,6 @@
-import About from "./components/About/About";
+// import About from "./components/About/About";
 import CTA from "./components/CTA/CTA";
-import Differentials from "./components/Differentials/Differentials";
+// import Differentials from "./components/Differentials/Differentials";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Professional from "./components/Professional/Professional";
@@ -24,8 +24,8 @@ function App() {
       <Journey />
       <MovForYou />
       <Philosophy />
-      <About />
-      <Differentials />
+      {/* <About /> */}
+      {/* <Differentials /> */}
       <CTA />
       <Footer />
       <WhatsAppButton />

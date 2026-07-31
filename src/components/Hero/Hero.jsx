@@ -12,6 +12,7 @@ function Hero() {
           </h1>
           <p className="hero__description">
             Fisioterapia e Pilates com atendimento personalizado em Santo André
+            - Divisa São Caetano
           </p>
           <div className="hero__buttons">
             <a
@@ -35,7 +36,7 @@ function Hero() {
               <span>Pacientes Atendidos</span>
             </div>
             <div className="hero__stat">
-              <strong>5+</strong>
+              <strong>8+</strong>
               <span>Anos de experiência</span>
             </div>
             <div className="hero__stat">

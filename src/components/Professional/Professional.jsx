@@ -52,15 +52,11 @@ function Professional() {
             </li>
             <li className="professional__item">
               <i className="fas fa-check-circle"></i>
-              Fisioterapia Funcional
-            </li>
-            <li className="professional__item">
-              <i className="fas fa-check-circle"></i>
-              Fisioterapia Esportiva
-            </li>
-            <li className="professional__item">
-              <i className="fas fa-check-circle"></i>
               Pilates Clínico
+            </li>
+            <li className="professional__item">
+              <i className="fas fa-check-circle"></i>
+              Fisioterapira Geriátrica
             </li>
           </ul>
         </div>

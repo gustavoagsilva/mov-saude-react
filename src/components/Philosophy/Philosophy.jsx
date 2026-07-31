@@ -8,7 +8,7 @@ function Philosophy() {
         <div className="philosophy__grid">
           <div className="philosophy__item">
             <h2 className="philosophy__title">
-              🩵 Nós ouvimos antes de tratar
+              💚 Nós ouvimos antes de tratar
             </h2>
             <p className="philosophy__description">
               Cada pessoa possui uma história. Antes de qualquer exercício,
@@ -17,7 +17,7 @@ function Philosophy() {
           </div>
           <div className="philosophy__item">
             <h2 className="philosophy__title">
-              🩵 Tratamos a causa, não apenas os sintomas.
+              💚 Tratamos a causa, não apenas os sintomas.
             </h2>
             <p className="philosophy__description">
               Nosso foco é encontrar a origem do problema para promover
@@ -26,7 +26,7 @@ function Philosophy() {
           </div>
           <div className="philosophy__item">
             <h2 className="philosophy__title">
-              🩵 Você acompanha sua evolução
+              💚 Você acompanha sua evolução
             </h2>
             <p className="philosophy__description">
               Seu tratamento é construído junto com você, com objetivos claros e
@@ -35,7 +35,7 @@ function Philosophy() {
             </p>
           </div>
           <div className="philosophy__item">
-            <h2 className="philosophy__title">🩵 Movimento é liberdade</h2>
+            <h2 className="philosophy__title">💚 Movimento é liberdade</h2>
             <p className="philosophy__description">
               Nosso maior propósito é devolver autonomia, confiança e qualidade
               de vida para que você possa viver com mais leveza.

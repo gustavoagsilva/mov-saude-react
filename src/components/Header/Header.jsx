@@ -22,8 +22,8 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#about" className="header__link">
-                Sobre
+              <a href="#journey" className="header__link">
+                Sua Jornada
               </a>
             </li>
             <li>
