@@ -1,17 +1,7 @@
 import "./Professional.css";
-import { useState } from "react";
 import barbaraImg from "../../assets/barbara.jpeg";
 
 function Professional() {
-  const [open, setOpen] = useState(null);
-
-  function handleOpen(id) {
-    if (open === id) {
-      setOpen(null);
-    } else {
-      setOpen(id);
-    }
-  }
   return (
     <section id="professional" className="professional reveal">
       <div className="professional__container container">
@@ -56,47 +46,17 @@ function Professional() {
             também é cuidar das pessoas.
           </p>
           <ul className="professional__list">
-            <li className="professional__item" onClick={() => handleOpen(1)}>
+            <li className="professional__item">
               <i className="fas fa-check-circle"></i>
-              Fisioterapira Ortopédica
-              {open === 1 && (
-                <div className="professional__popup">
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Recusandae similique vitae animi sit debitis molestias
-                    obcaecati ullam aut suscipit, amet, at possimus doloribus
-                    molestiae. Consectetur qui nulla ullam quo tempora.
-                  </p>
-                </div>
-              )}
+              Fisioterapia Ortopédica
             </li>
-            <li className="professional__item" onClick={() => handleOpen(2)}>
+            <li className="professional__item">
               <i className="fas fa-check-circle"></i>
               Pilates Clínico
-              {open === 2 && (
-                <div className="professional__popup">
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Necessitatibus tempora totam aut sed laborum tempore minus.
-                    Eveniet minima molestias tenetur numquam omnis. Vitae, amet
-                    nemo nostrum sint unde facere sunt.
-                  </p>
-                </div>
-              )}
             </li>
-            <li className="professional__item" onClick={() => handleOpen(3)}>
+            <li className="professional__item">
               <i className="fas fa-check-circle"></i>
-              Fisioterapira Geriátrica
-              {open === 3 && (
-                <div className="professional__popup">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis, culpa obcaecati! Itaque corporis saepe illum,
-                    aliquam numquam similique error cum sunt dolores nulla,
-                    facilis commodi voluptate dolore. Molestiae, a suscipit.
-                  </p>
-                </div>
-              )}
+              Fisioterapia Geriátrica
             </li>
           </ul>
         </div>
