@@ -1,4 +1,5 @@
 import "./CTA.css";
+import AppointmentButton from "../AppointmentButton/AppointmentButton";
 
 function CTA() {
   return (
@@ -12,13 +13,7 @@ function CTA() {
         >
           Agende sua aula experimental clicando AQUI
         </a> */}
-        <a
-          href="LINK_DO_GOOGLE_FORMS"
-          target="_blank"
-          className="btn btn--primary"
-        >
-          Agendar aula experimental clicando AQUI
-        </a>
+        <AppointmentButton />
         <div className="cta__buttons">
           <a
             href="https://wa.me/5511910000570"

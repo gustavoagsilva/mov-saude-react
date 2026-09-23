@@ -1,4 +1,4 @@
-import "./MovForYou.css";
+import "./MOVForYou.css";
 
 function MovForYou() {
   return (

@@ -1,5 +1,6 @@
 import "./Header.css";
 import { useState } from "react";
+import AppointmentButton from "../AppointmentButton/AppointmentButton";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -27,6 +28,11 @@ function Header() {
               </a>
             </li>
             <li>
+              <a href="#gallery" className="header__link" onClick={() => setOpen(false)}>
+                Galeria
+              </a>
+            </li>
+            <li>
               <a href="#contact" className="header__link">
                 Contato
               </a>
@@ -36,13 +42,7 @@ function Header() {
         <button className="header__hamburger" onClick={() => setOpen(!open)}>
           ☰
         </button>
-        <a
-          href="LINK_DO_GOOGLE_FORMS"
-          className="btn btn--primary header__cta"
-          target="_blank"
-        >
-          Agendar aula experimental
-        </a>
+        <AppointmentButton className="header__cta" />
       </div>
     </header>
   );

@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import useReveal from "./hooks/useReveal";
 import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
 import Philosophy from "./components/Philosophy/Philosophy";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   useReveal();
@@ -24,6 +25,7 @@ function App() {
       <Journey />
       <MovForYou />
       <Philosophy />
+      <Gallery />
       {/* <About /> */}
       {/* <Differentials /> */}
       <CTA />

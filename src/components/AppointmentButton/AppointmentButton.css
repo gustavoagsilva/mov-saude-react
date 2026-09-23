@@ -1,0 +1,17 @@
+.appointment-button {
+  border: 0;
+  font: inherit;
+  font-weight: 600;
+  text-align: center;
+}
+
+.appointment-button:disabled {
+  cursor: not-allowed;
+  background: var(--primary-color);
+  transform: none;
+}
+
+.appointment-button:focus-visible {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 4px;
+}

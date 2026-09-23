@@ -1,5 +1,5 @@
 import "./Hero.css";
-import fisioImg from "../../assets/fisio1.jpeg";
+import HeroSlideshow from "./HeroSlideshow";
 
 function Hero() {
   return (
@@ -45,9 +45,7 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="hero__image">
-          <img src={fisioImg} alt="Atendimento de fisioterapia" />
-        </div>
+        <HeroSlideshow />
       </div>
     </section>
   );
