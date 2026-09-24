@@ -6,8 +6,9 @@ function WhatsAppButton() {
       href="https://wa.me/5511910000570"
       target="_blank"
       className="whats__button"
+      aria-label="Falar com a MOV Saúde pelo WhatsApp"
     >
-      <i className="fab fa-whatsapp"></i>
+      <i className="fab fa-whatsapp" aria-hidden="true"></i>
     </a>
   );
 }
