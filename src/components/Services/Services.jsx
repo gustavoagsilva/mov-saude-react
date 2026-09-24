@@ -17,8 +17,8 @@ function Services() {
       <div className="container">
         <h2 className="services__title">Como podemos te ajudar?</h2>
         <div className="services__options">
-          <div className="services__option" onClick={() => handleOpen(1)}>
-            <span>🦴 Estou com dor na coluna</span>
+          <div className="services__option">
+            <span onClick={() => handleOpen(1)}>🦴 Estou com dor na coluna</span>
             {open === 1 && (
               <div className="services__option-content">
                 <p>
@@ -44,8 +44,8 @@ function Services() {
             )}
           </div>
 
-          <div className="services__option" onClick={() => handleOpen(2)}>
-            <span>🧘 Quero começar Pilates.</span>
+          <div className="services__option">
+            <span onClick={() => handleOpen(2)}>🧘 Quero começar Pilates.</span>
             {open === 2 && (
               <div className="services__option-content">
                 <p>O Pilates vai muito além do fortalecimento.</p>
@@ -68,8 +68,8 @@ function Services() {
             )}
           </div>
 
-          <div className="services__option" onClick={() => handleOpen(3)}>
-            <span>🚶 Tenho artrose.</span>
+          <div className="services__option">
+            <span onClick={() => handleOpen(3)}>🚶 Tenho artrose.</span>
             {open === 3 && (
               <div className="services__option-content">
                 <p>
@@ -97,8 +97,8 @@ function Services() {
             )}
           </div>
 
-          <div className="services__option" onClick={() => handleOpen(4)}>
-            <span>🧍 Quero melhorar minha postura.</span>
+          <div className="services__option">
+            <span onClick={() => handleOpen(4)}>🧍 Quero melhorar minha postura.</span>
             {open === 4 && (
               <div className="services__option-content">
                 <p>
@@ -121,8 +121,8 @@ function Services() {
             )}
           </div>
 
-          <div className="services__option" onClick={() => handleOpen(5)}>
-            <span>💪 Sofri uma lesão.</span>
+          <div className="services__option">
+            <span onClick={() => handleOpen(5)}>💪 Sofri uma lesão.</span>
             {open === 5 && (
               <div className="services__option-content">
                 <p>
@@ -145,8 +145,8 @@ function Services() {
             )}
           </div>
 
-          <div className="services__option" onClick={() => handleOpen(6)}>
-            <span>🌿 Quero envelhecer com mais autonomia.</span>
+          <div className="services__option">
+            <span onClick={() => handleOpen(6)}>🌿 Quero envelhecer com mais autonomia.</span>
             {open === 6 && (
               <div className="services__option-content">
                 <p>

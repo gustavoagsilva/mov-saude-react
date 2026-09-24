@@ -33,7 +33,6 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   padding: 20px 24px;
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -47,6 +46,7 @@
 }
 
 .services__option > span {
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80,4 +80,10 @@
 .services__option-content .btn--primary {
   margin-top: 8px;
   display: inline-block;
+}
+
+@media (min-width: 1025px) {
+  .services {
+    scroll-margin-top: 120px;
+  }
 }
