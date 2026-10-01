@@ -2,6 +2,12 @@
 
 ## Google Forms e Google Planilhas
 
+Atualização em 01/10/2026: link público configurado em `src/config/contact.js`.
+O formulário disponibilizado pela clínica contém nome completo, WhatsApp com
+DDD, escolha do atendimento e descrição livre, todos obrigatórios.
+Pendente: confirmar com a responsável o recebimento do teste na planilha e
+a mensagem após o envio. A consulta pública não confirma essas configurações.
+
 1. Na Conta Google da responsável pela clínica, criar o formulário com:
    - Nome: resposta curta, obrigatório.
    - Telefone/WhatsApp: resposta curta, obrigatório (não usar campo numérico).
