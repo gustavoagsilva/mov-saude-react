@@ -8,6 +8,6 @@ Baixadas em resolução de 960 px para `public/gallery/`.
 - demo-36833355.jpg: https://www.pexels.com/photo/modern-pilates-studio-with-reformers-36833355/
 - demo-35341629.jpg: https://www.pexels.com/photo/women-practicing-pilates-in-modern-studio-35341629/
 
-Substituir pelas fotos reais em `src/data/gallery.js` e remover a propriedade
-`illustrative` dos itens substituídos. Os avisos desaparecem quando nenhuma
-foto está marcada como ilustrativa.
+Em 05/10/2026, as fotos provisórias foram substituídas pelas fotos reais
+enviadas pela clínica. Não são mais exibidas no site. O carrossel inicial
+usa a lista em `src/data/heroPhotos.js`; a seção de galeria foi removida.

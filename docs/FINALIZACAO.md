@@ -28,27 +28,24 @@ Enquanto o endereço estiver vazio, os botões mostram “Formulário em breve�
 e ficam desabilitados. Os links de WhatsApp permanecem disponíveis.
 O site não armazena respostas: o envio e a confirmação acontecem no Forms.
 
-## Fotos da galeria
+## Fotos do carrossel inicial
 
-A seção fica antes da chamada final. As fotos provisórias são do Pexels e
-não representam a clínica; as fontes estão em `docs/GALLERY_SOURCES.md`.
-A galeria mostra três imagens no computador e uma no celular, com transição
-suave a cada cinco segundos. As setas pausam a reprodução para permitir
-observar a foto escolhida; o botão central retoma a troca automática.
-Com preferência por movimento reduzido, a navegação é somente manual.
+Todas as fotos ficam no início do site, em `src/data/heroPhotos.js`.
+A antiga seção de galeria e seu link no menu foram removidos.
+O carrossel mantém a troca suave a cada três segundos e o botão de pausa
+no canto inferior esquerdo. A preferência por movimento reduzido desativa
+as trocas automáticas, conforme o comportamento anterior.
 
-1. Colocar as fotos definitivas em `public/gallery/` (criar a pasta).
-2. Em `src/data/gallery.js`, preencher `src` com o caminho de cada foto,
-   por exemplo `/gallery/recepcao.jpg`.
-3. Preencher `alt` com uma descrição real da imagem e ajustar `caption`,
-   que é a legenda visível. Manter um `id` exclusivo para cada item.
-4. Preferir fotos otimizadas e verificar o recorte 4:3 em celular e computador.
-5. Remover itens que não serão usados e a propriedade `illustrative` das fotos
-   definitivas. O aviso de fotos ilustrativas desaparece quando nenhuma foto
-   tem essa propriedade ativa. Sem imagens, aparece “Em breve, fotos da nossa clínica”.
+O carrossel contém oito fotos da clínica: as três originais e cinco enviadas
+em 05/10/2026. As fotos provisórias do Pexels foram substituídas.
+
+1. Colocar as fotos definitivas em `public/gallery/` ou importar de `src/assets`.
+2. Em `src/data/heroPhotos.js`, atualizar `src` e a descrição `alt`.
+3. Ajustar `position` para controlar o recorte, se necessário.
+4. Adicionar ou remover itens da lista para definir as fotos e sua ordem.
 
 Exemplo de item definitivo:
 
 ```js
-{ id: "reception", src: "/gallery/recepcao.jpg", alt: "Recepção da MOV Saúde", caption: "Nossa recepção" }
+{ src: "/gallery/recepcao.jpg", alt: "Recepção da MOV Saúde", position: "center" }
 ```

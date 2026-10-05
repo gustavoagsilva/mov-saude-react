@@ -28,11 +28,6 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#gallery" className="header__link" onClick={() => setOpen(false)}>
-                Galeria
-              </a>
-            </li>
-            <li>
               <a href="#contact" className="header__link">
                 Contato
               </a>
