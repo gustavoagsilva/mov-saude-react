@@ -87,3 +87,33 @@
     scroll-margin-top: 120px;
   }
 }
+
+@media (max-width: 1024px) {
+  .services__option {
+    padding: 12px 16px;
+  }
+
+  .services__option > span {
+    min-height: 44px;
+    gap: 12px;
+    line-height: 1.5;
+  }
+
+  .services__option > span::after {
+    flex-shrink: 0;
+  }
+
+  .services__option-content {
+    padding-left: 12px;
+  }
+
+  .services__option-content p {
+    text-align: justify;
+  }
+
+  .services__option-content .btn {
+    width: 100%;
+    text-align: center;
+    padding-inline: 12px;
+  }
+}

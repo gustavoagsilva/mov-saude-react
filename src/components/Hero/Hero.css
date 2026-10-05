@@ -162,14 +162,24 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .hero {
+    padding: 40px 0;
+  }
+
   .hero__container {
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
+  .hero__content {
+    width: 100%;
+    min-width: 0;
+  }
+
   .hero__title {
-    font-size: 24px;
+    font-size: clamp(30px, 7vw, 40px);
   }
 
   .hero__buttons {
@@ -180,7 +190,24 @@
   .hero__image {
     flex: none;
     width: 100%;
-    max-width: 100%;
+    max-width: 600px;
+    height: clamp(280px, 85vw, 420px);
+  }
+
+  .hero__stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .hero__stat span {
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+  }
+
+  .hero__slideshow-toggle {
+    width: 44px;
+    height: 44px;
   }
 
   .hero .btn--secondary {

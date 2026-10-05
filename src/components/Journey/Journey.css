@@ -104,11 +104,17 @@
 
 @media (max-width: 768px) {
   .journey__list {
-    padding-left: 25px;
+    padding-left: 44px;
+  }
+
+  .journey__item {
+    display: block;
   }
 
   .journey__number {
-    left: -38px;
+    position: absolute;
+    left: -44px;
+    top: 16px;
     width: 30px;
     height: 30px;
     font-size: 13px;
@@ -129,6 +135,6 @@
   }
 
   .journey__item:hover .journey__content {
-    transform: translateX(4px);
+    transform: none;
   }
 }

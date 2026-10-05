@@ -67,11 +67,36 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    padding: 60px 0 calc(85px + env(safe-area-inset-bottom, 0px));
+  }
+
   .footer__container {
     flex-direction: column;
   }
 
+  .footer__info, .footer__map {
+    width: 100%;
+    min-width: 0;
+  }
+
   .footer__map iframe {
+    display: block;
     height: 250px;
+  }
+
+  .footer__item i {
+    flex-shrink: 0;
+  }
+
+  .footer__item a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  .footer__bottom {
+    padding-inline: 20px;
+    line-height: 1.6;
   }
 }

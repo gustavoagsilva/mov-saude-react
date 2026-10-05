@@ -91,20 +91,29 @@
   margin-top: 15px;
   font-size: 14px;
   color: #555;
-  text-align: center;
+  text-align: justify;
   font-style: italic;
   line-height: 1.6;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .professional__container {
     flex-direction: column;
+    gap: 32px;
     text-align: center;
   }
 
-  .professional__image img {
+  .professional__image {
     width: 100%;
-    height: 250px;
+    max-width: 350px;
+  }
+
+  .professional__image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
   }
 
   .professional__list {
@@ -116,7 +125,6 @@
   }
 
   .professional__text {
-    text-align: left;
     text-align: justify;
   }
 
