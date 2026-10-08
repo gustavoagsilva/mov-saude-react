@@ -36,7 +36,7 @@ function Header() {
     <header className="header" ref={headerRef}>
       <div className="header__container container">
         <h1 className="header__logo">
-          Mov Saúde <span>Fisioterapia e Pilates</span>
+          MOV Saúde <span>Fisioterapia e Pilates</span>
         </h1>
         <nav className={`header__nav ${open ? "header__nav--open" : ""}`} aria-label="Navegação principal">
           <ul id="header-menu" className={`header__menu ${open ? "header__menu--open" : ""}`} onClick={(event) => {
@@ -54,7 +54,7 @@ function Header() {
             </li>
             <li>
               <a href="#journey" className="header__link">
-                Sua Jornada
+                Sua jornada
               </a>
             </li>
             <li>

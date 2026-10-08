@@ -9,11 +9,11 @@ function Professional() {
           <img src={barbaraImg} alt="Dra. Bárbara Borghi" />
           <p className="professional__quote">
             "Meu propósito é ajudar você a se movimentar com mais liberdade,
-            viver com menos dor e recuperar a confiança no seu corpo"
+            viver com menos dor e recuperar a confiança no seu corpo."
           </p>
         </div>
         <div className="professional__content">
-          <h2 className="professional__title">Olá, eu sou Bárbara Borghi.</h2>
+          <h2 className="professional__title">Olá, eu sou Bárbara Borghi</h2>
           <p className="professional__text">
             Sou fisioterapeuta apaixonada pelo movimento humano e por
             transformar a vida das pessoas por meio de um atendimento
@@ -23,7 +23,7 @@ function Professional() {
           <p className="professional__text">
             Minha atuação é voltada para a reabilitação ortopédica, prevenção de
             lesões, melhora da qualidade de vida e envelhecimento com autonomia,
-            utilizando recursos da fisioterapia e do Pilates Terapêutico de
+            utilizando recursos da fisioterapia e do Pilates terapêutico de
             forma integrada. Sou certificada internacionalmente no Método
             Ehrenfried – Ginástica Holística, abordagem que valoriza a
             consciência corporal, a qualidade do movimento e o tratamento
@@ -48,15 +48,15 @@ function Professional() {
           <ul className="professional__list">
             <li className="professional__item">
               <i className="fas fa-check-circle"></i>
-              Fisioterapia Ortopédica
+              Fisioterapia ortopédica
             </li>
             <li className="professional__item">
               <i className="fas fa-check-circle"></i>
-              Pilates Clínico
+              Pilates clínico
             </li>
             <li className="professional__item">
               <i className="fas fa-check-circle"></i>
-              Fisioterapia Geriátrica
+              Fisioterapia geriátrica
             </li>
           </ul>
         </div>

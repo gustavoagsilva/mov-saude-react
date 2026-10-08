@@ -42,7 +42,7 @@ function Journey() {
               <p className="journey__text">
                 Com base nessa avaliação, elaboramos um plano terapêutico
                 exclusivo para você. Dependendo da sua necessidade, o tratamento
-                poderá envolver fisioterapia, Pilates Terapêutico ou a
+                poderá envolver fisioterapia, Pilates terapêutico ou a
                 integração entre ambos, sempre respeitando seus objetivos, sua
                 rotina e o seu momento.
               </p>
@@ -54,7 +54,7 @@ function Journey() {
             <div className="journey__content">
               <h3 className="journey__title">Acompanhamento da evolução</h3>
               <p className="journey__text">
-                Durante todo o processo acompanhamos sua evolução e ajustamos o
+                Durante todo o processo, acompanhamos sua evolução e ajustamos o
                 tratamento sempre que necessário. Nosso objetivo é que cada dia
                 represente um passo em direção à sua recuperação.
               </p>

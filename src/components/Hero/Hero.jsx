@@ -6,13 +6,13 @@ function Hero() {
     <section className="hero">
       <div className="hero__container container">
         <div className="hero__content">
-          <span className="hero__badge">✦ Clínica de Fisioterapia</span>
+          <span className="hero__badge">✦ Clínica de fisioterapia</span>
           <h1 className="hero__title">
             Movimento que gera <span>qualidade de vida</span>
           </h1>
           <p className="hero__description">
-            Fisioterapia e Pilates com atendimento personalizado em Santo André
-            - Divisa São Caetano
+            Fisioterapia e Pilates com atendimento personalizado em Santo André,
+            na divisa com São Caetano do Sul
           </p>
           <div className="hero__buttons">
             <a
@@ -33,7 +33,7 @@ function Hero() {
           <div className="hero__stats">
             <div className="hero__stat">
               <strong>500+</strong>
-              <span>Pacientes Atendidos</span>
+              <span>Pacientes atendidos</span>
             </div>
             <div className="hero__stat">
               <strong>8+</strong>

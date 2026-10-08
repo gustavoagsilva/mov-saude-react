@@ -45,7 +45,7 @@ function Services() {
           </div>
 
           <div className="services__option">
-            <span onClick={() => handleOpen(2)}>🧘 Quero começar Pilates.</span>
+            <span onClick={() => handleOpen(2)}>🧘 Quero começar Pilates</span>
             {open === 2 && (
               <div className="services__option-content">
                 <p>O Pilates vai muito além do fortalecimento.</p>
@@ -62,19 +62,20 @@ function Services() {
                   target="_blank"
                   className="btn btn--primary"
                 >
-                  Quero conhecer o Pilates da MOV.
+                  Quero conhecer o Pilates da MOV
                 </a>
               </div>
             )}
           </div>
 
           <div className="services__option">
-            <span onClick={() => handleOpen(3)}>🚶 Tenho artrose.</span>
+            <span onClick={() => handleOpen(3)}>🚶 Tenho artrose</span>
             {open === 3 && (
               <div className="services__option-content">
                 <p>
                   Receber o diagnóstico de artrose não significa que você
-                  precisa conviver com a dor ou deixar de fazer o que gosta.
+                  precisa conviver com a dor ou deixar de fazer as atividades de
+                  que gosta.
                 </p>
                 <p>
                   Com exercícios adequados e acompanhamento fisioterapêutico, é
@@ -91,14 +92,14 @@ function Services() {
                   target="_blank"
                   className="btn btn--primary"
                 >
-                  Quero saber como podemos ajudar.
+                  Quero saber como podemos ajudar
                 </a>
               </div>
             )}
           </div>
 
           <div className="services__option">
-            <span onClick={() => handleOpen(4)}>🧍 Quero melhorar minha postura.</span>
+            <span onClick={() => handleOpen(4)}>🧍 Quero melhorar minha postura</span>
             {open === 4 && (
               <div className="services__option-content">
                 <p>
@@ -115,14 +116,14 @@ function Services() {
                   target="_blank"
                   className="btn btn--primary"
                 >
-                  Quero melhorar minha postura.
+                  Quero melhorar minha postura
                 </a>
               </div>
             )}
           </div>
 
           <div className="services__option">
-            <span onClick={() => handleOpen(5)}>💪 Sofri uma lesão.</span>
+            <span onClick={() => handleOpen(5)}>💪 Sofri uma lesão</span>
             {open === 5 && (
               <div className="services__option-content">
                 <p>
@@ -139,14 +140,14 @@ function Services() {
                   target="_blank"
                   className="btn btn--primary"
                 >
-                  Quero iniciar minha recuperação.
+                  Quero iniciar minha recuperação
                 </a>
               </div>
             )}
           </div>
 
           <div className="services__option">
-            <span onClick={() => handleOpen(6)}>🌿 Quero envelhecer com mais autonomia.</span>
+            <span onClick={() => handleOpen(6)}>🌿 Quero envelhecer com mais autonomia</span>
             {open === 6 && (
               <div className="services__option-content">
                 <p>
@@ -165,7 +166,7 @@ function Services() {
                   target="_blank"
                   className="btn btn--primary"
                 >
-                  Quero envelhecer com mais qualidade de vida.
+                  Quero envelhecer com mais qualidade de vida
                 </a>
               </div>
             )}
